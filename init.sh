@@ -1,10 +1,10 @@
 #!/bin/bash
 
-Configs="i3 polybar"
+Configs="i3 polybar dunst"
 
 for d in $Configs; do
     echo linking $d
-    ln -sf ./$d $HOME/.config/
+    ln -srf ./$d $HOME/.config/
 done
 
 Dotfiles=".Xresources"

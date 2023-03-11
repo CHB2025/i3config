@@ -193,6 +193,7 @@ bindsym $mod+Pause mode "$mode_system"
 
 # Start everything
 exec --no-startup-id dex -as ~/.config/autostart
+exec --no-startup-id dunst
 exec_always --no-startup-id feh --bg-fill ~/.local/share/backgrounds/arch-bg.jpg
 exec_always --no-startup-id ~/.config/polybar/launch.sh
 exec i3-sensible-terminal
