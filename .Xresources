@@ -1,0 +1,28 @@
+URxvt.transparent:False
+URxvt.scrollBar: False
+URxvt.reverseVideo:False
+
+URxvt.font: xft:LiberationMono:size=11
+URxvt.letterSpace: -1
+
+!! Rose-pine color scheme
+! Base
+URxvt.color0: #191724
+! Love
+URxvt.color1: #eb6f92
+! Foam #9ccfd8
+URxvt.color2: #9ccfd8
+! Gold
+URxvt.color3: #f6c177
+! Pine
+URxvt.color4: #31748f
+! Iris
+URxvt.color5: #c4a7e7
+! Rose 
+URxvt.color6: #ebbcba
+! Text
+URxvt.color7: #e0def4
+
+URxvt.background: 0
+URxvt.foreground: 7
+URxvt.highlightColor:6
