@@ -1,12 +1,14 @@
 ### Dependencies
-- i3
+- i3-wm
 - i3lock
 - polybar
+- rofi
 - dunst
 - dex
 - feh
 - pamixer
 - urxvt (i3 config is agnostic, but .Xresources is for this)
+- xorg-xrdb (to load .Xresources)
 
 ### Installation
 Run `$ init.sh` to create symlinks from the configurations in this directory to the `~/.config` and `~` directories where appropriate.
