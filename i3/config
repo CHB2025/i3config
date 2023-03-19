@@ -15,8 +15,19 @@ set $mod Mod1
 # is used in the bar {} block below.
 font pango:monospace 10
 
+# Set colors
+set_from_resource $base i3wm.color0 #000000
+set_from_resource $love i3wm.color1 #ff0000
+set_from_resource $foam i3wm.color2 #9ccfd8
+set_from_resource $pine i3wm.color4 #31748f
+set_from_resource $text i3wm.color7 #e0def4
+client.focused $pine $pine $text $foam $pine
+
+default_border pixel
+
 gaps inner 10
 gaps outer 5
+
 
 focus_follows_mouse no
 
@@ -34,12 +45,11 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
-# move tiling windows via drag & drop by left-clicking into the title bar,
-# or left-clicking anywhere into the window while holding the floating modifier.
-tiling_drag modifier titlebar
-
 # start a terminal
 bindsym $mod+Return exec i3-sensible-terminal
+
+# start firefox
+bindsym $mod+Shift+Return exec firefox
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -194,7 +204,7 @@ bindsym $mod+Shift+p mode "$mode_system"
 # Start everything
 exec --no-startup-id dex -a
 exec --no-startup-id dunst
-exec_always --no-startup-id feh --bg-fill ~/.local/share/backgrounds/arch-bg.jpg
+exec_always --no-startup-id feh --bg-fill ~/.local/share/backgrounds/solstice.png
 exec_always --no-startup-id ~/.config/polybar/launch.sh
 exec i3-sensible-terminal
 

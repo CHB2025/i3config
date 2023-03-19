@@ -7,21 +7,21 @@ URxvt.letterSpace: -1
 
 !! Rose-pine color scheme
 ! Base
-URxvt.color0: #191724
+*color0: #191724
 ! Love
-URxvt.color1: #eb6f92
+*color1: #eb6f92
 ! Foam #9ccfd8
-URxvt.color2: #9ccfd8
+*color2: #9ccfd8
 ! Gold
-URxvt.color3: #f6c177
+*color3: #f6c177
 ! Pine
-URxvt.color4: #31748f
+*color4: #31748f
 ! Iris
-URxvt.color5: #c4a7e7
-! Rose 
-URxvt.color6: #ebbcba
+*color5: #c4a7e7
+! Muted 
+*color6: #6e6a86
 ! Text
-URxvt.color7: #e0def4
+*color7: #e0def4
 
 URxvt.background: 0
 URxvt.foreground: 7
