@@ -23,7 +23,7 @@ set_from_resource $pine i3wm.color4 #31748f
 set_from_resource $text i3wm.color7 #e0def4
 client.focused $pine $pine $text $foam $pine
 
-default_border pixel
+default_border pixel 3
 
 gaps inner 10
 gaps outer 5
@@ -204,7 +204,7 @@ bindsym $mod+Shift+p mode "$mode_system"
 # Start everything
 exec --no-startup-id dex -a
 exec --no-startup-id dunst
-exec_always --no-startup-id feh --bg-fill ~/.local/share/backgrounds/solstice.png
+exec_always --no-startup-id feh --bg-fill ~/.local/share/backgrounds/starfield.png
 exec_always --no-startup-id ~/.config/polybar/launch.sh
 exec i3-sensible-terminal
 
