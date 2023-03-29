@@ -3,12 +3,12 @@ URxvt.scrollBar: False
 URxvt.reverseVideo:False
 URxvt.depth: 32
 
-URxvt.font: xft:monospace:size=11,xft:Noto Emoji
+URxvt.font: xft:monospace:size=11,xft:Font Awesome 6 Free Solid
 URxvt.letterSpace: -1
 
 !! Rose-pine color scheme
 ! Base
-*color0: [80]#191724
+*color0: [60]#191724
 ! Love
 *color1: #eb6f92
 ! Foam #9ccfd8

@@ -6,7 +6,8 @@
 - dunst
 - dex
 - feh
-- pamixer
+- ttf-font-awesome
+- pamixer (aur)
 - urxvt (i3 config is agnostic, but .Xresources is for this)
 - xorg-xrdb (to load .Xresources)
 
