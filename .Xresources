@@ -3,7 +3,7 @@ URxvt.scrollBar: False
 URxvt.reverseVideo:False
 URxvt.depth: 32
 
-URxvt.font: xft:monospace:size=11,xft:Font Awesome 6 Free Solid
+URxvt.font: xft:monospace:size=11,xft:Font Awesome 6 Free Solid:style=solid:size=6
 URxvt.letterSpace: -1
 
 !! Rose-pine color scheme
